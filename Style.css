@@ -1,0 +1,34 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold; /* Make text bold */
+    font-size: 10px; /* Set a really small font size */
+}
+
+/* Add a class for a container to center the content */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    /* Adjust the responsive font size for body only, as h1 styles are removed */
+}
